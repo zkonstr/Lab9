@@ -4,17 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6cb3477-31a2-4415-bc95-e5d7b6db256d" name="Default Changelist" comment="entity from edurfe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/helper/AdListHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/helper/UserListHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/servlet/StartupServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/tag/AddUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/tag/DeleteAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/tag/GetAds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/tag/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bsu/rfe/zhibul/tag/UpdateAd.java" afterDir="false" />
+    <list default="true" id="b6cb3477-31a2-4415-bc95-e5d7b6db256d" name="Default Changelist" comment="tag, helper and servlet added">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/adListing.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/deleteButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/editButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/errorMessage.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/layout1Column.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/layout2Columns.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/loginForm.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/newButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/registerButton.tag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/ad.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/c.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/fmt.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/fn.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/sql.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tlds/x.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/cabinet.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doDeleteAd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doLogin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doLogout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doRegister.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/doUpdateAd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateAd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/viewAd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Lab9_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Lab9_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab9.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +47,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -35,6 +58,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/errorMessage.tag" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -59,6 +85,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zkons\IdeaProjects\Lab9\src\main\webapp\WEB-INF\lib" />
+      <recent name="C:\Users\zkons\IdeaProjects\Lab9\src\main\webapp" />
       <recent name="C:\Users\zkons\IdeaProjects\Lab9" />
     </key>
   </component>
@@ -95,6 +123,26 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/Lab9" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.6" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\Program Files (x86)\Apache Software Foundation\Tomcat 10.0_KonstrTomcat" />
+          <option name="version" value="10.0.6.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621698981174</updated>
-      <workItem from="1621698982369" duration="1424000" />
+      <workItem from="1621698982369" duration="3478000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1621699465302</created>
@@ -134,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621699952992</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tag, helper and servlet added">
+      <created>1621700451229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621700451229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +209,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="entity from edurfe" />
-    <option name="LAST_COMMIT_MESSAGE" value="entity from edurfe" />
+    <MESSAGE value="tag, helper and servlet added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tag, helper and servlet added" />
   </component>
 </project>
